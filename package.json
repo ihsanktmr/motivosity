@@ -1,0 +1,50 @@
+{
+  "name": "Motivosity",
+  "version": "2.7.2",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-awesome-alerts": "^1.2.0",
+    "react-native-check-box": "^2.1.7",
+    "react-native-dash": "^0.0.9",
+    "react-native-easy-toast": "^1.2.0",
+    "react-native-elements": "^0.19.0",
+    "react-native-global-props": "^1.1.5",
+    "react-native-htmlview": "^0.13.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-iphone-x-helper": "^1.2.1",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-modalbox": "^1.7.1",
+    "react-native-parallax-scroll-view": "^0.21.3",
+    "react-native-remote-svg": "^2.0.3",
+    "react-native-scl-alert": "^1.2.1",
+    "react-native-slider": "file:./react-native-slider-master",
+    "react-native-tag-input": "^0.0.21",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-webview": "^5.6.1",
+    "react-navigation": "1.5.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.0",
+    "jest": "^24.7.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
+  }
+}
